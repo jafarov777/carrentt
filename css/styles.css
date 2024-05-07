@@ -1,3 +1,43 @@
+.search-icon {
+  border: none;
+  background-color: #fff;
+  align-items: center;
+}
+
+.search-here {
+  border: none;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.apps-icon {
+  border: none;
+  background-color: #fff;
+}
+
+.heart {
+  border: none;
+  background-color: #fff;
+}
+
+.notifications {
+  border: none;
+  background-color: #fff;
+}
+
+.cog {
+  border: none;
+  background-color: #fff;
+}
+
+.button-swap {
+  background: blue;
+  border: none;
+  font-size: 25px;
+  border-radius: 7px;
+  color: #fff;
+}
+
 :root {
   /*Primary*/
   --primary-900: #0a196f;
@@ -65,63 +105,66 @@
 .header {
   display: flex;
   gap: 20px;
-}
-
-.header-tittle {
-  display: flex;
   justify-content: space-between;
-  gap: 440px;
+  align-items: center;
 }
 
 .logo {
-  font-size: 25px;
+  font-size: 30px;
   text-decoration: none;
+}
+
+.search {
+  border: 6px;
 }
 
 .action {
   display: flex;
+  font-size: 20px;
   gap: 15px;
 }
 
-.action-content {
-  gap: 20px;
-}
-
-.user-icon {
+.action-logo {
   width: 30px;
+  border-radius: 100px;
 }
 
-.main {
+.main-car {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 
-.main-content-left {
-  background-color: rgb(88, 88, 255);
+.main-text h2 {
+  font-size: 30px;
+}
+
+.main-text h4 {
+  font-size: 15px;
+}
+
+.main-left {
+  padding: 15px 20px;
+  gap: 10px;
+  background-color: #54a6ff;
+  color: #fff;
   border-radius: 8px;
 }
 
-.main-content-right {
-  background-color: rgb(5, 5, 202);
+.main-right {
+  padding: 15px 20px;
+  gap: 10px;
+  background-color: #3563e9;
+  color: #fff;
   border-radius: 8px;
-}
-
-.main-text {
-  padding: 10px 15px;
-  gap: 30px;
 }
 
 .main-img {
-  align-items: center;
+  padding-left: 40px;
 }
 
-.mainn {
+.pickdrop {
   display: flex;
   justify-content: space-around;
-}
-
-.pickup-drop {
-  display: flex;
 }
 
 .pickup-chech {
@@ -129,16 +172,38 @@
   gap: 10px;
 }
 
+.lodati {
+  display: flex;
+  gap: 5px;
+}
+
 .loc {
   border: none;
 }
 
-.lodai {
-  display: flex;
-  gap: 20px;
+.our {
+  font-size: 12px;
 }
 
-.drop-chech {
+.about-text {
+  display: inline-block;
+}
+
+.footerr {
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
+}
+
+.footer-right {
+  display: flex;
+  gap: 40px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyrightt {
+  justify-content: space-around;
 }/*# sourceMappingURL=styles.css.map */

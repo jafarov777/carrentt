@@ -12,111 +12,153 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
-      <!--header-->
-    <header class="header">
-        <div class="header-tittle">
+    <div class="container">
+      <header class="header">
+        <a href="#" class="logo">MORENT</a>
+        <div class="search">
+          <button class="search-icon"><ion-icon name="search-outline"></ion-icon></button>
+          <input type="text" class="search-here" placeholder="Search something here">
+          <button class="apps-icon"><ion-icon name="apps-outline"></ion-icon></button>
+        </div>
+        <div class="action">
+          <button class="heart"><ion-icon name="heart-outline"></ion-icon></button>
+          <button class="notifications"><ion-icon name="notifications-outline"></ion-icon></button>
+          <button class="cog"><ion-icon name="cog-outline"></ion-icon></button>
           <div>
+            <a href="https://www.google.com/" target="_blank"><img class="action-logo" src="./image/stefano.png"/></a>
+          </div>
+        </div>
+      </header>
+      <!--Section-->
+      <section class="main">
+        <div class="main-car">
+          <div class="main-left">
+            <div class="main-text">
+              <h2>The Best Platform for Car Rental</h2>
+              <h4>Ease of doing a car rental safely and reliably. Of course at a low price.</h4>
+                <button type="button" class="btn btn-primary">Rental Car</button>
+                <div class="main-img">
+                  <img src="./image/cc.png" alt="">
+                </div>
+            </div>
+          </div>
+          <div class="main-right">
+            <div class="main-text">
+              <h2>Easy way to rent a car at a low price</h2>
+              <h4>Providing cheap car rental services and safe and comfortable facilities.</h4>
+                <button type="button" class="btn btn-primary">Rental Car</button>
+                <div class="main-img">
+                  <img src="./image/gtr.png" alt="">
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="pickdrop">
+          <div class="pickup-left">
+            <div class="pickup-chech">
+              <input type="radio"/>
+              <h4>Pick - Up</h4>
+            </div>
+            <div class="lodati">
+              <div class="location">
+                <b>Location</b>
+                <div>
+                  <i>Select your city</i>
+                  <select class="loc"></select>
+                </div>
+              </div>
+              <div class="Date">
+                <b>Date</b>
+                <div>
+                  <i>Select your date</i>
+                  <select class="loc"></select>
+                </div>
+              </div>
+              <div class="Time">
+                <b>Time</b>
+                <div>
+                  <i>Select your time</i>
+                  <select class="loc"></select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swap">
+            <button class="button-swap"><ion-icon name="swap-vertical-outline"></ion-icon></button>
+          </div>
+          <div class="drop-right">
+            <div class="pickup-chech">
+              <input type="radio"/>
+              <h4>Drop - Off</h4>
+            </div>
+            <div class="lodati">
+              <div class="location">
+                <b>Location</b>
+                <div>
+                  <i>Select your city</i>
+                  <select class="loc"></select>
+                </div>
+              </div>
+              <div class="Date">
+                <b>Date</b>
+                <div>
+                  <i>Select your date</i>
+                  <select class="loc"></select>
+                </div>
+              </div>
+              <div class="Time">
+                <b>Time</b>
+                <div>
+                  <i>Select your time</i>
+                  <select class="loc"></select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/section-->
+      <footer class="footer">
+        <div class="footerr">
+          <div class="footer-logo">
             <a href="#" class="logo">MORENT</a>
+            <h6>Our vision is to provide convenience and <br>help increase your sales business.</h6>
           </div>
-          <div class="search">
-            <button class="icon"><ion-icon name="search-outline"></ion-icon></button>
-            <input class="search-here" type="text" placeholder="Search something here"/>
-            <button><ion-icon name="apps-outline"></ion-icon></button>
-          </div>
-          <div class="action">
-            <a href="#" class="action-link"><ion-icon name="heart-outline"></ion-icon></a>
-            <a href="#" class="action-content"><ion-icon name="notifications-outline"></ion-icon></a>
-            <a href="#" class="action-content"><ion-icon name="cog-outline"></ion-icon></a>
-            <div><img class="user-icon" src="image/stefano.png"></div>
-          </div>
-        </div>
-    </header>
-    <!--/header-->
-    <!--Section-->
-    <section class="main">
-      <div class="main-content-left">
-        <div class="main-text">
-          <h2>The Best Platform for Car Rental</h2>
-          <h4>Ease of doing a car rental safely and reliably. Of course at a low price.</h4>
-          <button type="button" class="btn btn-primary">Rental Car</button>
-          <div class="main-img">
-            <img src="./image/cc.png" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="main-content-right">
-        <div class="main-text">
-          <h2>Easy way to rent a car at a low price</h2>
-          <h4>Providing cheap car rental services and safe and comfortable facilities.</h4>
-          <button type="button" class="btn btn-primary">Rental Car</button>
-          <div class="main-img">
-            <img class="main-imgg" src="./image/gtr.png" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/section-->    
-    <!--pickup-->
-    <div class="mainn">
-      <div class="pickup-left">
-        <div class="pickup-chech">
-          <input type="radio"/>
-          <h4>Pick - Up</h4>
-        </div>
-        <div class="lodai">
-          <div class="location">
-            <b>Locations</b>
-              <div>
-                <i>Select your city</i>
-                <select class="loc"></select>
-              </div>
-          </div>
-          <div class="date">
-            <b>Date</b>
-              <div>
-                <i>Select your data</i>
-                <select class="loc"></select>
-              </div>
-          </div>
-          <div class="time">
-            <b>Locations</b>
-              <div>
-                <i>Select your time</i>
-                <select class="loc" name="time"></select>
-              </div>
-          </div>
-        </div>
-    </div>
-    <!--/pickup-->
-    <div class="drop-right">
-      <div class="drop-chech">
-        <input type="radio"/>
-        <h4>Drop - Off</h4>
-      </div>
-        <div class="lodai">
-          <div class="location">
-            <b>Locations</b>
-            <div>
-              <i>Select your city</i>
-              <select class="loc"></select>
+          <div class="footer-right">
+            <div class="footer-title">
+              <h5>About</h5>
+              <i>how it works</i><br>
+              <i>featured</i><br>
+              <i>partnership</i><br>
+              <i>bussiness relation</i><br>
+            </div>
+            <div class="footer-title">
+              <h5>Community</h5>
+              <i>events</i><br>
+              <i>blog</i><br>
+              <i>podcast</i><br>
+              <i>invite a friend</i><br>
+            </div>
+            <div class="footer-title">
+              <h5>Socials</h5>
+              <i>disocord</i><br>
+              <i>instagram</i><br>
+              <i>twitter</i><br>
+              <i>facebook</i><br>
             </div>
           </div>
-          <div class="date">
-            <b>Date</b>
-            <div>
-              <i>Select your data</i>
-              <select class="loc"></select>
-            </div>
+        </div>
+        <hr>
+        <div class="copyright">
+          <div class="copyright-left">
+            <b>©2022 MORENT. All rights reserved</b>
           </div>
-          <div class="time">
-            <b>Locations</b>
-              <div>
-                <i>Select your time</i>
-                <select class="loc" name="time"></select>
-              </div>
+          <div class="copyrightt">
+            <b>Privacy & Policy</b>
+            <b>Terms & Condition</b>
           </div>
         </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
