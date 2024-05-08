@@ -38,6 +38,29 @@
   color: #fff;
 }
 
+.battery {
+  border: none;
+}
+
+.aperture {
+  border: none;
+}
+
+.people-circle {
+  border: none;
+}
+
+.grey {
+  text-decoration-color: solid;
+}
+
+.rent {
+  border-radius: 2px;
+  border: none;
+  background-color: #3563e9;
+  color: #fff;
+}
+
 :root {
   /*Primary*/
   --primary-900: #0a196f;
@@ -107,6 +130,11 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;
+}
+
+.container {
+  background-color: rgba(240, 229, 229, 0.4117647059);
 }
 
 .logo {
@@ -132,6 +160,7 @@
 .main-car {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .main-text h2 {
@@ -165,6 +194,7 @@
 .pickdrop {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 30px;
 }
 
 .pickup-chech {
@@ -181,6 +211,53 @@
   border: none;
 }
 
+.popular {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.view a {
+  text-decoration: none;
+}
+
+.carss {
+  display: flex;
+}
+
+.cars {
+  padding: 30px;
+}
+
+.car {
+  display: flex;
+  gap: 70px;
+}
+
+.car-gtr {
+  padding-bottom: 20px;
+}
+
+.car-title {
+  padding-bottom: 17px;
+}
+
+.car-footer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.gtr {
+  width: 220px;
+  padding-bottom: 5px;
+}
+
+.pric {
+  display: flex;
+  gap: 25px;
+}
+
 .our {
   font-size: 12px;
 }
@@ -192,6 +269,10 @@
 .footerr {
   display: flex;
   justify-content: space-between;
+}
+
+.footer-title a {
+  text-decoration: none;
 }
 
 .footer-right {

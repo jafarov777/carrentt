@@ -3,6 +3,10 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;
+}
+.container{
+  background-color: #f0e5e569;
 }
 .logo{
   font-size:30px;
@@ -23,6 +27,7 @@
 .main-car{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 30px;
  
 }
 .main-text h2{
@@ -52,6 +57,7 @@
 .pickdrop{
   display: flex;
   justify-content: space-around;
+  padding-bottom: 30px;
 
 }
 .pickup-chech{
@@ -66,6 +72,43 @@
 .loc{
   border: none;
 }
+.popular{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.view a{
+  text-decoration: none;
+}
+.carss{
+  display: flex;
+}
+.cars{
+  padding: 30px;
+}
+.car{
+  display: flex;
+  gap: 70px;
+}
+.car-gtr{
+  padding-bottom: 20px;
+}
+.car-title{
+  padding-bottom:17px;
+}
+.car-footer{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.gtr{
+  width: 220px;
+  padding-bottom: 5px;
+}
+.pric{
+  display: flex;
+  gap: 25px;
+}
 //footer
 .our{
   font-size: 12px;
@@ -76,6 +119,9 @@
 .footerr{
   display: flex;
   justify-content: space-between;
+}
+.footer-title a{
+  text-decoration: none;
 }
 .footer-right{
   display: flex;
